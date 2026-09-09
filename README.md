@@ -1,773 +1,778 @@
 # Claude_Code_for_Professional_Developers
 Build and deploy production-grade apps with AI — no vibe coding
 
-<br>
+&nbsp;
 
 ### **Table of content**
 ---
 
-1. [**Getting Started (10m)**]()
+1. [**Getting Started (10m)**](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#getting-started-10m)
 
-    1.1. [Welcome]()
+    1.1. [Welcome](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#welcome)
 
-    1.2. [Prerequisites]()
+    1.2. [Prerequisites](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#prerequisites)
 
-    1.3. [Course Structure]()
+    1.3. [Course Structure](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#course-structure)
 
-    1.4. [Source Code]()
+    1.4. [Source Code](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#source-code)
 
-    1.5. [How to Take This Course]()
+    1.5. [How to Take This Course](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#how-to-take-this-course)
 
-    1.6. [Questions and Support]()
+    1.6. [Questions and Support](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#questions-and-support)
 
-    1.7. [Connect with Me]()
+    1.7. [Connect with Me](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#connect-with-me)
 
-2. [**Getting Started with Claude Code (1h)**]()
+2. [**Getting Started with Claude Code (1h)**](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#getting-started-with-claude-code-1h)
 
-    2.1. [Introduction]()
+    2.1. [Introduction](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#introduction)
 
-    2.2. [What is Claude Code]()
+    2.2. [What is Claude Code](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#what-is-claude-code)
 
-    2.3. [Installing Claude Code]()
+    2.3. [Installing Claude Code](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#installing-claude-code)
 
-    2.4. [Using Claude Code]()
+    2.4. [Using Claude Code](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#using-claude-code)
 
-    2.5. [Running the App]()
+    2.5. [Running the App](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#running-the-app)
 
-    2.6. [Creating Project Memory]()
+    2.6. [Creating Project Memory](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#creating-project-memory)
 
-    2.7. [Effective Prompting]()
+    2.7. [Effective Prompting](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#effective-prompting)
 
-    2.8. [Using the Plan Mode]()
+    2.8. [Using the Plan Mode](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#using-the-plan-mode)
 
-    2.9. [Managing the Context]()
+    2.9. [Managing the Context](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#managing-the-context)
 
-    2.10. [Tracking Cost and Usage]()
+    2.10. [Tracking Cost and Usage](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#tracking-cost-and-usage)
 
-    2.11. [Model Context Protocol]()
+    2.11. [Model Context Protocol](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#model-context-protocol)
 
-    2.12. [Adding Tools]()
+    2.12. [Adding Tools](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#adding-tools)
 
-    2.13. [Creating Skills]()
+    2.13. [Creating Skills](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#creating-skills)
 
-    2.14. [Adding Skills]()
+    2.14. [Adding Skills](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#adding-skills)
 
-    2.15. [Checkpointing]()
+    2.15. [Checkpointing](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#checkpointing)
 
-    2.16. [Creating Subagents]()
+    2.16. [Creating Subagents](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#creating-subagents)
 
-    2.17. [AI Code Review]()
+    2.17. [AI Code Review](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#ai-code-review)
 
-    2.18. [Future of Software Engineering]()
+    2.18. [Future of Software Engineering](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#future-of-software-engineering)
 
-3. [**Project Planning and Setup (37m)**]()
+3. [**Project Planning and Setup (37m)**](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#project-planning-and-setup-37m)
 
-    3.1. [Introduction]()
+    3.1. [Introduction](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#introduction-1)
 
-    3.2. [Defining the Project Scope]()
+    3.2. [Defining the Project Scope](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#defining-the-project-scope)
 
-    3.3. [Clarifying the Requirements]()
+    3.3. [Clarifying the Requirements](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#clarifying-the-requirements)
 
-    3.4. [Defining the MVP]()
+    3.4. [Defining the MVP](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#defining-the-mvp)
 
-    3.5. [Choosing the Tech Stack]()
+    3.5. [Choosing the Tech Stack](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#choosing-the-tech-stack)
 
-    3.6. [Creating an Implementation Plan]()
+    3.6. [Creating an Implementation Plan](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#creating-an-implementation-plan)
 
-    3.7. [Setting Up the Project]()
+    3.7. [Setting Up the Project](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#setting-up-the-project)
 
-    3.8. [Setting Up PostgreSQL]()
+    3.8. [Setting Up PostgreSQL](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#setting-up-postgresql)
 
-    3.9. [Setting Up Prisma]()
+    3.9. [Setting Up Prisma](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#setting-up-prisma)
 
-    3.10. [Setting Up Push Notifications]()
+    3.10. [Setting Up Push Notifications](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#setting-up-push-notifications)
 
-4. [**Authentication (2h)**]()
+4. [**Authentication (2h)**](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#authentication-2h)
 
-    4.1. [Introduction]()
+    4.1. [Introduction](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#introduction-2)
 
-    4.2. [Choosing an Authentication Strategy]()
+    4.2. [Choosing an Authentication Strategy](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#choosing-an-authentication-strategy)
 
-    4.3. [Choosing a Session Strategy]()
+    4.3. [Choosing a Session Strategy](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#choosing-a-session-strategy)
 
-    4.4. [Setting Up Better Auth]()
+    4.4. [Setting Up Better Auth](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#setting-up-better-auth)
 
-    4.5. [Reviewing the Authentication Setup]()
+    4.5. [Reviewing the Authentication Setup](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-authentication-setup)
 
-    4.6. [Registering Users]()
+    4.6. [Registering Users](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#registering-users)
 
-    4.7. [Building the Login Page]()
+    4.7. [Building the Login Page](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#building-the-login-page)
 
-    4.8. [Reviewing the Login Page]()
+    4.8. [Reviewing the Login Page](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-login-page)
 
-    4.9. [Implementing Validation]()
+    4.9. [Implementing Validation](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#implementing-validation)
 
-    4.10. [Adding Tailwind]()
+    4.10. [Adding Tailwind](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#adding-tailwind)
 
-    4.11. [Adding Shadcn]()
+    4.11. [Adding Shadcn](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#adding-shadcn)
 
-    4.12. [Implementing Role-based Access]()
+    4.12. [Implementing Role-based Access](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#implementing-role-based-access)
 
-    4.13. [Creating a Security Audit Agent]()
+    4.13. [Creating a Security Audit Agent](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#creating-a-security-audit-agent)
 
-    4.14. [Security Audit]()
+    4.14. [Security Audit](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#security-audit)
 
-    4.15. [Troubleshooting Startup Issues]()
+    4.15. [Troubleshooting Startup Issues](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#troubleshooting-startup-issues)
 
-    4.16. [Setting Up Playwright]()
+    4.16. [Setting Up Playwright](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#setting-up-playwright)
 
-    4.17. [Reviewing Playwright Setup]()
+    4.17. [Reviewing Playwright Setup](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-playwright-setup)
 
-    4.18. [Creating a Testing Agent]()
+    4.18. [Creating a Testing Agent](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#creating-a-testing-agent)
 
-    4.19. [Writing and Running E2E Tests]()
+    4.19. [Writing and Running E2E Tests](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#writing-and-running-e2e-tests)
 
-    4.20. [Reviewing E2E Tests]()
+    4.20. [Reviewing E2E Tests](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-e2e-tests)
 
-5. [**User Management (1h)**]()
+5. [**User Management (1h)**](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#user-management-1h)
 
-    5.1. [Introduction]()
+    5.1. [Introduction](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#introduction-3)
 
-    5.2. [Listing Users]()
+    5.2. [Listing Users](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#listing-users)
 
-    5.3. [Using React Query]()
+    5.3. [Using React Query](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#using-react-query)
 
-    5.4. [Adding Loading Skeletons]()
+    5.4. [Adding Loading Skeletons](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#adding-loading-skeletons)
 
-    5.5. [Writing Unit Tests]()
+    5.5. [Writing Unit Tests](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#writing-unit-tests)
 
-    5.6. [Creating Users]()
+    5.6. [Creating Users](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#creating-users)
 
-    5.7. [Reviewing the Backend Code]()
+    5.7. [Reviewing the Backend Code](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-backend-code)
 
-    5.8. [Reviewing the Frontend Code]()
+    5.8. [Reviewing the Frontend Code](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-frontend-code)
 
-    5.9. [Testing Creating Users]()
+    5.9. [Testing Creating Users](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-frontend-code)
 
-    5.10. [Editing Users]()
+    5.10. [Editing Users](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#editing-users)
 
-    5.11. [Reviewing the Backend]()
+    5.11. [Reviewing the Backend](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-backend)
 
-    5.12. [Reviewing the Frontend]()
+    5.12. [Reviewing the Frontend](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-frontend)
 
-    5.13. [Deleting Users]()
+    5.13. [Deleting Users](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#deleting-users)
 
-    5.14. [Reviewing the Code]()
+    5.14. [Reviewing the Code](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-code)
 
-    5.15. [Adding E2E Tests]()
+    5.15. [Adding E2E Tests](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#adding-e2e-tests)
 
-    5.16. [Why Clean Code Still Matters]()
+    5.16. [Why Clean Code Still Matters](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#why-clean-code-still-matters)
 
-6. [**Ticket Management (2h)**]()
+6. [**Ticket Management (2h)**](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#ticket-management-2h)
 
-    6.1. [Introduction]()
+    6.1. [Introduction](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#introduction-4)
 
-    6.2. [Receiving Tickets]()
+    6.2. [Receiving Tickets](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#receiving-tickets)
 
-    6.3. [Reviewing the Code]()
+    6.3. [Reviewing the Code](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-code-1)
 
-    6.4. [Writing E2E Tests]()
+    6.4. [Writing E2E Tests](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#writing-e2e-tests)
 
-    6.5. [Listing Tickets]()
+    6.5. [Listing Tickets](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#listing-tickets)
 
-    6.6. [Reviewing the Code]()
+    6.6. [Reviewing the Code](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-code-2)
 
-    6.7. [Sorting Tickets]()
+    6.7. [Sorting Tickets](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#sorting-tickets)
 
-    6.8. [Filtering Tickets]()
+    6.8. [Filtering Tickets](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#filtering-tickets)
 
-    6.9. [Pagination]()
+    6.9. [Pagination](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#pagination)
 
-    6.10. [Viewing Ticket Details]()
+    6.10. [Viewing Ticket Details](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#pagination)
 
-    6.11. [Assigning Tickets]()
+    6.11. [Assigning Tickets](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#assigning-tickets)
 
-    6.12. [Updating Tickets]()
+    6.12. [Updating Tickets](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#updating-tickets)
 
-    6.13. [Replying to Tickets]()
+    6.13. [Replying to Tickets](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#replying-to-tickets)
 
-    6.14. [Reviewing the Backend]()
+    6.14. [Reviewing the Backend](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-backend-1)
 
-    6.15. [Reviewing the Frontend]()
+    6.15. [Reviewing the Frontend](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-frontend-1)
 
-    6.16. [Refactoring for Clean Abstractions]()
+    6.16. [Refactoring for Clean Abstractions](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#refactoring-for-clean-abstractions)
 
-    6.17. [Extracting Interfaces]()
+    6.17. [Extracting Interfaces](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#refactoring-for-clean-abstractions)
 
-    6.18. [Writing Tests]()
+    6.18. [Writing Tests](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#writing-tests)
 
-    6.19. [Preventing XSS Attacks]()
+    6.19. [Preventing XSS Attacks](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#preventing-xss-attacks)
 
-    6.20. [Handling Edge Cases]()
+    6.20. [Handling Edge Cases](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#handling-edge-cases)
 
-7. [**AI-Powered Features (1h)**]()
+7. [**AI-Powered Features (1h)**](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#ai-powered-features-1h)
 
-    7.1. [Introduction]()
+    7.1. [Introduction](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#introduction-5)
 
-    7.2. [Polishing Replies]()
+    7.2. [Polishing Replies](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#polishing-replies)
 
-    7.3. [Reviewing the Code]()
+    7.3. [Reviewing the Code](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-code-3)
 
-    7.4. [Testing AI Features]()
+    7.4. [Testing AI Features](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#testing-ai-features)
 
-    7.5. [Summarizing Tickets]()
+    7.5. [Summarizing Tickets](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#summarizing-tickets)
 
-    7.6. [Reviewing the Code]()
+    7.6. [Reviewing the Code](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-code-4)
 
-    7.7. [Classifying Tickets]()
+    7.7. [Classifying Tickets](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#classifying-tickets)
 
-    7.8. [Reviewing the Code]()
+    7.8. [Reviewing the Code](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-code-5)
 
-    7.9. [Background Job Processing]()
+    7.9. [Background Job Processing](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#background-job-processing)
 
-    7.10. [Auto-Resolving Tickets]()
+    7.10. [Auto-Resolving Tickets](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#auto-resolving-tickets)
 
-    7.11. [Reviewing the Code]()
+    7.11. [Reviewing the Code](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-code-6)
 
-    7.12. [Building a Dashboard]()
+    7.12. [Building a Dashboard](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#building-a-dashboard)
 
-    7.13. [Reviewing the Code]()
+    7.13. [Reviewing the Code](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#reviewing-the-code-7)
 
-8. [**Email Integration (17m)**]()
+8. [**Email Integration (17m)**](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#email-integration-17m)
 
-    8.1. [Introduction]()
+    8.1. [Introduction](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#introduction-6)
 
-    8.2. [Setting Up SendGrid]()
+    8.2. [Setting Up SendGrid](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#setting-up-sendgrid)
 
-    8.3. [Tunnelling with ngrok]()
+    8.3. [Tunnelling with ngrok](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#tunnelling-with-ngrok)
 
-    8.4. [Receiving Emails]()
+    8.4. [Receiving Emails](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#receiving-emails)
 
-    8.5. [Troubleshooting Email Integration]()
+    8.5. [Troubleshooting Email Integration](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#troubleshooting-email-integration)
 
-    8.6. [Sending Emails]()
+    8.6. [Sending Emails](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#sending-emails)
 
-9. [**Production (46m)**]()
+9. [**Production (46m)**](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#production-46m)
 
-    9.1. [Introduction]()
+    9.1. [Introduction](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#introduction-7)
 
-    9.2. [Logging Errors with Sentry]()
+    9.2. [Logging Errors with Sentry](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#logging-errors-with-sentry)
 
-    9.3. [Polishing the UI]()
+    9.3. [Polishing the UI](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#polishing-the-ui)
 
-    9.4. [Preparing for Production]()
+    9.4. [Preparing for Production](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#preparing-for-production)
 
-    9.5. [Dockerizing the App]()
+    9.5. [Dockerizing the App](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#dockerizing-the-app)
 
-    9.6. [Deploying to Railway]()
+    9.6. [Deploying to Railway](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#deploying-to-railway)
 
-    9.7. [Seeding the Production Database]()
+    9.7. [Seeding the Production Database](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#seeding-the-production-database)
 
-    9.8. [Configuring SendGrid]()
+    9.8. [Configuring SendGrid](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#configuring-sendgrid)
 
-    9.9. [Claude Code GitHub Actions]()
+    9.9. [Claude Code GitHub Actions](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#claude-code-github-actions)
 
-    9.10. [Fixing GitHub Issues]()
+    9.10. [Fixing GitHub Issues](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#fixing-github-issues)
 
-    9.11. [Creating Pull Requests]()
+    9.11. [Creating Pull Requests](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#creating-pull-requests)
 
-    9.12. [Final Thoughts]()
+    9.12. [Final Thoughts](https://github.com/mohankrishkumare/Claude_Code_for_Professional_Developers#final-thoughts)
 
-<br><br>
+&nbsp;
+&nbsp;
 
 ## Getting Started (10m)
 
 ### Welcome
 
-<br>
+&nbsp;
 
 ### Prerequisites
 
-<br>
+&nbsp;
 
 ### Course Structure
 
-<br>
+&nbsp;
 
 ### Source Code
 
-<br>
+&nbsp;
 
 ### How to Take This Course
 
-<br>
+&nbsp;
 
 ### Questions and Support
 
-<br>
+&nbsp;
 
 ### Connect with Me
 
-<br>
+&nbsp;
 
 ## Getting Started with Claude Code (1h)
 
 ### Introduction
 
-<br>
+&nbsp;
 
 ### What is Claude Code
 
-<br>
+&nbsp;
 
 ### Installing Claude Code
 
-<br>
+&nbsp;
 
 ### Using Claude Code
 
-<br>
+&nbsp;
 
 ### Running the App
 
-<br>
+&nbsp;
 
 ### Creating Project Memory
 
-<br>
+&nbsp;
 
 ### Effective Prompting
 
-<br>
+&nbsp;
 
 ### Using the Plan Mode
 
-<br>
+&nbsp;
 
 ### Managing the Context
 
-<br>
+&nbsp;
 
 ### Tracking Cost and Usage
 
-<br>
+&nbsp;
 
 ### Model Context Protocol
 
-<br>
+&nbsp;
 
 ### Adding Tools
 
-<br>
+&nbsp;
 
 ### Creating Skills
 
-<br>
+&nbsp;
 
 ### Adding Skills
 
-<br>
+&nbsp;
 
 ### Checkpointing
 
-<br>
+&nbsp;
 
 ### Creating Subagents
 
-<br>
+&nbsp;
 
 ### AI Code Review
 
-<br>
+&nbsp;
 
 ### Future of Software Engineering
 
-<br>
+&nbsp;
 
 ## Project Planning and Setup (37m)
 
 ### Introduction
 
-<br>
+&nbsp;
 
 ### Defining the Project Scope
 
-<br>
+&nbsp;
 
 ### Clarifying the Requirements
 
-<br>
+&nbsp;
 
 ### Defining the MVP
 
-<br>
+&nbsp;
 
 ### Choosing the Tech Stack
 
-<br>
+&nbsp;
 
 ### Creating an Implementation Plan
 
-<br>
+&nbsp;
 
 ### Setting Up the Project
 
-<br>
+&nbsp;
 
 ### Setting Up PostgreSQL
 
-<br>
+&nbsp;
 
 ### Setting Up Prisma
 
-<br>
+&nbsp;
 
 ### Setting Up Push Notifications
 
-<br>
+&nbsp;
 
 ## Authentication (2h)
 
 ### Introduction
 
-<br>
+&nbsp;
 
-### Choosing an Authentication Strategy4m 17s
+### Choosing an Authentication Strategy
 
-<br>
+&nbsp;
 
-### Choosing a Session Strategy4m 26s
+### Choosing a Session Strategy
 
-<br>
+&nbsp;
 
-### Setting Up Better Auth7m 19s
+### Setting Up Better Auth
 
-<br>
+&nbsp;
 
-### Reviewing the Authentication Setup6m 00s
+### Reviewing the Authentication Setup
 
-<br>
+&nbsp;
 
-### Registering Users7m 29s
+### Registering Users
 
-<br>
+&nbsp;
 
-### Building the Login Page4m 21s
+### Building the Login Page
 
-<br>
+&nbsp;
 
-### Reviewing the Login Page5m 32s
+### Reviewing the Login Page
 
-<br>
+&nbsp;
 
-### Implementing Validation6m 57s
+### Implementing Validation
 
-<br>
+&nbsp;
 
-### Adding Tailwind5m 08s
+### Adding Tailwind
 
-<br>
+&nbsp;
 
-### Adding Shadcn9m 37s
+### Adding Shadcn
 
-<br>
+&nbsp;
 
-### Creating a Security Audit Agent3m 47s
+### Implementing Role-based Access
 
-<br>
+&nbsp;
 
-### Security Audit8m 20s
+### Creating a Security Audit Agent
 
-<br>
+&nbsp;
 
-### Troubleshooting Startup Issues2m 57s
+### Security Audit
 
-<br>
+&nbsp;
 
-### Setting Up Playwright6m 28s
+### Troubleshooting Startup Issues
 
-<br>
+&nbsp;
 
-### Reviewing Playwright Setup2m 53s
+### Setting Up Playwright
 
-<br>
+&nbsp;
 
-### Creating a Testing Agent3m 32s
+### Reviewing Playwright Setup
 
-<br>
+&nbsp;
 
-### Writing and Running E2E Tests5m 18s
+### Creating a Testing Agent
 
-<br>
+&nbsp;
 
-### Reviewing E2E Tests4m 36s
+### Writing and Running E2E Tests
 
-<br>
+&nbsp;
+
+### Reviewing E2E Tests
+
+&nbsp;
 
 ## User Management (1h)
 
 ### Introduction
 
-<br>
+&nbsp;
 
 ### Listing Users
 
-<br>
+&nbsp;
 
 ### Using React Query
 
-<br>
+&nbsp;
 
 ### Adding Loading Skeletons
 
-<br>
+&nbsp;
 
 ### Writing Unit Tests
 
-<br>
+&nbsp;
 
 ### Creating Users
 
-<br>
+&nbsp;
 
 ### Reviewing the Backend Code
 
-<br>
+&nbsp;
 
 ### Reviewing the Frontend Code
 
-<br>
+&nbsp;
 
 ### Testing Creating Users
 
-<br>
+&nbsp;
 
 ### Editing Users
 
-<br>
+&nbsp;
 
 ### Reviewing the Backend
 
-<br>
+&nbsp;
 
 ### Reviewing the Frontend
 
-<br>
+&nbsp;
 
 ### Deleting Users
 
-<br>
+&nbsp;
 
 ### Reviewing the Code
 
-<br>
+&nbsp;
 
 ### Adding E2E Tests
 
-<br>
+&nbsp;
 
 ### Why Clean Code Still Matters
 
-<br>
+&nbsp;
 
 ## Ticket Management (2h)
 
 ### Introduction
 
-<br>
+&nbsp;
 
-### Receiving Tickets7m 30s
+### Receiving Tickets
 
-<br>
+&nbsp;
 
-### Reviewing the Code5m 14s
+### Reviewing the Code
 
-<br>
+&nbsp;
 
-### Writing E2E Tests2m 53s
+### Writing E2E Tests
 
-<br>
+&nbsp;
 
-### Listing Tickets2m 57s
+### Listing Tickets
 
-<br>
+&nbsp;
 
-### Reviewing the Code7m 12s
+### Reviewing the Code
 
-<br>
+&nbsp;
 
-### Sorting Tickets6m 01s
+### Sorting Tickets
 
-<br>
+&nbsp;
 
-### Filtering Tickets3m 56s
+### Filtering Tickets
 
-<br>
+&nbsp;
 
-### Pagination5m 03s
+### Pagination
 
-<br>
+&nbsp;
 
-### Viewing Ticket Details5m 31s
+### Viewing Ticket Details
 
-<br>
+&nbsp;
 
-### Assigning Tickets4m 51s
+### Assigning Tickets
 
-<br>
+&nbsp;
 
-### Updating Tickets5m 47s
+### Updating Tickets
 
-<br>
+&nbsp;
 
-### Replying to Tickets3m 47s
+### Replying to Tickets
 
-<br>
+&nbsp;
 
-### Reviewing the Backend4m 30s
+### Reviewing the Backend
 
-<br>
+&nbsp;
 
-### Reviewing the Frontend6m 07s
+### Reviewing the Frontend
 
-<br>
+&nbsp;
 
-### Refactoring for Clean Abstractions4m 56s
+### Refactoring for Clean Abstractions
 
-<br>
+&nbsp;
 
-### Extracting Interfaces3m 19s
+### Extracting Interfaces
 
-<br>
+&nbsp;
 
-### Writing Tests3m 17s
+### Writing Tests
 
-<br>
+&nbsp;
 
-### Preventing XSS Attacks5m 07s
+### Preventing XSS Attacks
 
-<br>
+&nbsp;
 
-### Handling Edge Cases3m 04s
+### Handling Edge Cases
 
-<br>
+&nbsp;
 
 ## AI-Powered Features (1h)
 
 ### Introduction
 
-<br>
+&nbsp;
 
 ### Polishing Replies
 
-<br>
+&nbsp;
 
 ### Reviewing the Code
 
-<br>
+&nbsp;
 
 ### Testing AI Features
 
-<br>
+&nbsp;
 
 ### Summarizing Tickets
 
-<br>
+&nbsp;
 
 ### Reviewing the Code
 
-<br>
+&nbsp;
 
 ### Classifying Tickets
 
-<br>
+&nbsp;
 
 ### Reviewing the Code
 
-<br>
+&nbsp;
 
 ### Background Job Processing
 
-<br>
+&nbsp;
 
 ### Auto-Resolving Tickets
 
-<br>
+&nbsp;
 
 ### Reviewing the Code
 
-<br>
+&nbsp;
 
 ### Building a Dashboard
 
-<br>
+&nbsp;
 
 ### Reviewing the Code
 
-<br>
+&nbsp;
 
 ## Email Integration (17m)
 
 ### Introduction
 
-<br>
+&nbsp;
 
 ### Setting Up SendGrid
 
-<br>
+&nbsp;
 
 ### Tunnelling with ngrok
 
-<br>
+&nbsp;
 
 ### Receiving Emails
 
-<br>
+&nbsp;
 
 ### Troubleshooting Email Integration
 
-<br>
+&nbsp;
 
 ### Sending Emails
 
-<br>
+&nbsp;
 
 ## Production (46m)
 
 ### Introduction
 
-<br>
+&nbsp;
 
 ### Logging Errors with Sentry
 
-<br>
+&nbsp;
 
 ### Polishing the UI
 
-<br>
+&nbsp;
 
 ### Preparing for Production
 
-<br>
+&nbsp;
 
 ### Dockerizing the App
 
-<br>
+&nbsp;
 
 ### Deploying to Railway
 
-<br>
+&nbsp;
 
 ### Seeding the Production Database
 
-<br>
+&nbsp;
 
 ### Configuring SendGrid
 
-<br>
+&nbsp;
 
 ### Claude Code GitHub Actions
 
-<br>
+&nbsp;
 
 ### Fixing GitHub Issues
 
-<br>
+&nbsp;
 
 ### Creating Pull Requests
 
-<br>
+&nbsp;
 
 ### Final Thoughts
 
-<br>
+&nbsp;

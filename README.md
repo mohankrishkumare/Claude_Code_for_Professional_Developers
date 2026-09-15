@@ -457,6 +457,28 @@ CLAUDE.md
 
 ### Effective Prompting
 
+Beacuse it's make huge different in the quality of result you get.
+- Be clear and specific
+- Give context
+- Be concise
+
+Eg: 
+```Bash
+> in @src/App.jsx, total income and expenses are not calculate correctly. fix it.
+```
+
+The update the CLAUDE.md
+```Bash
+> update claude.md and include architectural changes.
+```
+
+Exploring a codebase
+- What does this project do?
+- What tech stack it uses?
+- How the autontication implemented?
+- Explain the folder structure
+- Explain the piece of code
+
 &nbsp;
 
 ### Using the Plan Mode

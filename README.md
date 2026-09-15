@@ -305,6 +305,20 @@ Build and deploy production-grade apps with AI — no vibe coding
 
 ### Introduction
 
+You'll learn
+- What is Claude Code?
+- Setting up Claude Code
+- Writing good prompts
+- Using the planning mode
+- Managing the context window
+- Adding tools via MCP
+- Adding skills
+- Using checkpoints
+- Using subagents
+
+Throughout this section, we will working simple expense tracker build with React. This different from other full-stack project that we will later in this course.  
+Right now there is bug! Total income and expenses are not calculate properly. And the code is messi and the UI looks . . In this section, we use Claude Code to fix the bug and refactor this code and add new features and give the morden polished look. I'm very excite this section.
+
 &nbsp;
 
 ### What is Claude Code

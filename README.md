@@ -323,6 +323,48 @@ Right now there is bug! Total income and expenses are not calculate properly. An
 
 ### What is Claude Code
 
+It's and 'Agentic Codeing Tool' works simply a codeing agent.
+
+It can access tools that allow to takes action.  
+It can,
+- Read your file
+- Write code
+- Promt commands
+- Fix bug
+- Commit changes in Git
+
+If you disciript what you want, the agent gos and does it.
+
+Agents Eg:
+- GitHub Copilot
+- Cursor
+- Windsurf
+
+What's Claude Code special?
+- It's lives in your terminal
+- It's doesn't just suggest code; understand entair code base and can execute multi step tasks autonomously
+- It's not a tool for YouTube Vibe coders
+
+The big compaies are using Claude Code.
+
+Use case
+- Explore new codebases
+- Write and edit code
+- Debug and fix errors
+- Write and execute tests
+- Refactor code
+- Handle Git workflow
+
+The Claude Code is genuinely change in my life.
+
+We can convert big idea to real world. The Claude Code allow to build a product with so much less effort.
+
+There is a big qution!  
+Is the end of software engineering?  
+Software engineering is not goging a way. But the realy big software has change and continute to grow.
+
+If an electric saw machine came the carpenter's works more easier.
+
 &nbsp;
 
 ### Installing Claude Code

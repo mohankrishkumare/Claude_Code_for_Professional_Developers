@@ -430,10 +430,28 @@ If a task running in background, we can see it
 '1 bash'
 ```
 
+And can see,
+```Bash
+/tasks
+```
+
+Can kill that task by,
+```Bash
+K
+```
 
 &nbsp;
 
 ### Creating Project Memory
+
+Every time we started new session Claude know nothing about project. And know nothing about folder struture, what lib you used and how your code. We have to re-explain everything or Claude have to explore codebase each time. That's where the 'init' command come in.
+
+CLAUDE.md
+```Bash
+/init
+```
+
+'CLAUDE.md' is the official file that provide instruction and config Claude Code when working a project.
 
 &nbsp;
 

@@ -406,11 +406,30 @@ To setup terminal
 /terminal-setup
 ```
 
-
-
 &nbsp;
 
 ### Running the App
+
+```Bash
+npn install
+```
+
+```Bash
+npn run dev
+```
+
+The 'dev' is defined in package.json
+
+or we can run this app task to Claude
+```Bash
+> Run this app
+```
+
+If a task running in background, we can see it
+```Bash
+'1 bash'
+```
+
 
 &nbsp;
 

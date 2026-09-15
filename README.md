@@ -369,6 +369,16 @@ If an electric saw machine came the carpenter's works more easier.
 
 ### Installing Claude Code
 
+Install
+```Bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+Use
+```Bash
+claude
+```
+
 &nbsp;
 
 ### Using Claude Code

@@ -483,6 +483,13 @@ Exploring a codebase
 
 ### Using the Plan Mode
 
+It's usefull to bulding new feature (small and big). Therefor, brackdown a big feature into smaller feature can review and refine the code alone the way. Otherwise, if the Claude modified hundred of files, we can't review propely the code.
+
+Active plan mode by 'shift + tab'
+```Bash
+> add the ability to delete transavtions
+```
+
 &nbsp;
 
 ### Managing the Context

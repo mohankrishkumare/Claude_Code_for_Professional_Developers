@@ -383,6 +383,31 @@ claude
 
 ### Using Claude Code
 
+Clone project
+```Bash
+git clone git@github.com:mosh-hamedani/expense-tracker-starter.git
+```
+
+```Bash
+claude
+```
+
+```
+> ?
+```
+
+To select model
+```Bash
+/model
+```
+
+To setup terminal
+```Bash
+/terminal-setup
+```
+
+
+
 &nbsp;
 
 ### Running the App

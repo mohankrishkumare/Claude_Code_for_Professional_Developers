@@ -556,6 +556,14 @@ To compact Context
 
 ### Tracking Cost and Usage
 
+To see the usage
+```Bash
+/usage
+```
+
+How can we contoll the cost and usage?  
+The Context window is direct relationship with cost. Because each time we send the message, the model received the system instructions / CLAUDE.md / conversation history. The longer conversation means more input tokens pre request. So to control the cost and usage it's really important to properly manage the Context window.
+
 &nbsp;
 
 ### Model Context Protocol

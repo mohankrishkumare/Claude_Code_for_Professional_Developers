@@ -568,6 +568,14 @@ The Context window is direct relationship with cost. Because each time we send t
 
 ### Model Context Protocol
 
+The Claude extend additional tools. Eg. access GitHub like solving issue and open pull request, Talk to Slack to send and receive messages.  
+The way doing this, is this something called Model Context Protocol (MCP).  
+
+Why need this,  
+Without this, the Claude team need to write code to access servives like GitHub, Slack and Postgres. The is cause problem overtime because need to update continuously.
+
+The MCP contains server and client. The server contains all the complexcity involved. The MCP client embedded inside the host application like Claude Code. So, the client dosen't know specific about serives like GitHub. It will talk with services with standard message format based on JSON.
+
 &nbsp;
 
 ### Adding Tools

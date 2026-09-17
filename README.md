@@ -612,6 +612,42 @@ To add a chart in home page, 'Rechart' is a purpuler lib for Rect App.
 
 ### Creating Skills
 
+It's set of instruction thas teach Claude how to do things.
+
+Eg:
+- Deploying your application
+- Generating API documentation
+- Write unit tests
+
+Instead of repeting the your self over and over we can create skill and teach Claude, how to do it for you.
+
+Create Skill
+```Bash
+> create a custom skill called deploy. when deploying, we should run all tests first, build the production bundle, and push to the staging area.
+```
+
+Standard style
+```Bash
+.claude/skills/deploy/SKILL.md
+```
+
+To list Skills
+```Bash
+/skills
+```
+
+Note: Restart Claude after setup a Skill.
+
+To run Claude Code without loss conversation history.
+```Bash
+claude --resume
+```
+
+To run a Skill. The name of the skill in become custom '/' command.
+```Bash
+/deploy
+```
+
 &nbsp;
 
 ### Adding Skills

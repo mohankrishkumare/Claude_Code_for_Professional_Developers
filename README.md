@@ -580,6 +580,34 @@ The MCP contains server and client. The server contains all the complexcity invo
 
 ### Adding Tools
 
+Let's MCP in practice by adding the first tool that's Contex7.
+
+Why need this particular tool?  
+You may notice, AI tools some time gives outdated code. Eg; Older API replicate! Becauce AI tools knowledge comes from training data and that data has a cut-off date. This is where Context7 comes in.
+
+Context7 is a MCP server this fetch up-to-date version specific documantation and injected directly in to your promt.  
+Directly go website of it and create an account. Then go to 'Dashboard' and,
+- Create an API key
+- Connect 
+```Bash
+
+```
+
+To list our MCP server
+```Bash
+/mcp
+```
+
+Note: Restart Claude Code after install the MCP server.
+
+We can see the documetation (details/instructions) for each tool. Those are in the Context window therefor the Claude know how to handle the tool. So, it will increace the cost when you using lotof tools. Because each time the Claude load all details to do task.
+
+Let's use this MCP server to build someting usefull.  
+To add a chart in home page, 'Rechart' is a purpuler lib for Rect App.
+```Bash
+> add a chart (using rechart) to show spending by category. using context7.
+```
+
 &nbsp;
 
 ### Creating Skills

@@ -667,11 +667,32 @@ To use it
 > /frontend-design improve the look and feel of this app. make it modern and polished.
 ```
 
-
-
 &nbsp;
 
 ### Checkpointing
+
+It's like Git commit but it's not replaceing for Git. Thing of Checkpoint as local undo and Git as a permanet history. Checkpoint are gragefull for quick session level recovery but for commit branches and long term version control you still need Git.
+
+To view history and undo
+```Bash
+> /rewind
+```
+
+Options
+```Bash
+- Restore code and conversation
+- Restore conversation
+- Restore code
+- Never mind
+```
+
+After it, can do it again with some feature,  
+Eg:
+```Bash
+> /frontend-design improve the look and feel of this app. make it modern and polished. give me some design ideas to choose from.
+```
+
+If we choose option 1. Can rewind and choose option 2.
 
 &nbsp;
 

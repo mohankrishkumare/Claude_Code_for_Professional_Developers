@@ -706,6 +706,8 @@ If we choose option 1. Can rewind and choose option 2.
 
 ### Future of Software Engineering
 
+We just taken first step with Claude Code. Honestly we anly scratch the surface. The real power come clear as we start building full-stack application together. The speed, scale kind of thing ship in the day that's comming. Before we get them, I want to say something about where all of this. I bleave AI assistant codeing is the feature of software engineering. It's not replace engineers but, fundamentaly changing how we work. AI will generate big sunk of code it will handle mechanical repeative parts.
+
 &nbsp;
 
 ## Project Planning and Setup (37m)

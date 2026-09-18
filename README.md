@@ -714,6 +714,13 @@ We just taken first step with Claude Code. Honestly we anly scratch the surface.
 
 ### Introduction
 
+In this section, building that AI powered tickets managment system I show you at begining at the course. We plan this project and set everything out. So ready to build.  
+First, I want to set write expectation.  
+
+Ge active and build with me.
+
+In this section, I show you the code that Claude generate I add my comment and explain; why and how also show the mistacks the Claude make long a way.
+
 &nbsp;
 
 ### Defining the Project Scope

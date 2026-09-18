@@ -652,6 +652,23 @@ To run a Skill. The name of the skill in become custom '/' command.
 
 ### Adding Skills
 
+We don't always have to create custom skills. Because there are hundrad of thousand of available skills that we can add our project. We can find them `skillsmp.com` marketplace. You can brows, skills for `productivity & integration`, `Automation` and `Debugging` so on . .
+
+For demo, install `frontend-design`. To instal it better to open separate terminal window it will more stable.
+```Bash
+$ npx skills add anthropics/claude-code
+```
+to select option use `space` key in keyboard.
+
+now it's approcimately takes 63 tokens, you can seen it in short discription of skills in Claude Code. When Claude start it will loaded all regiested skils so all of these in the context window started. Then later when we invoke a skill, the details instruction for that skill get loaded. in other words, a skill dynamically add instruction to Claude. So instead of adding all these instructions for creating beautiful interfaces in our `CLAUDE.md` file we add them in `Skill`.
+
+To use it
+```Bash
+> /frontend-design improve the look and feel of this app. make it modern and polished.
+```
+
+
+
 &nbsp;
 
 ### Checkpointing
